@@ -1,0 +1,36 @@
+#product-box{
+  width: 100%;
+  height: 700px;
+  background-color: rgb(250,250,250);
+  position: relative;
+}
+.product-box-inset{
+  width: 80%;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  height: 95%;
+  text-align: center;
+}
+.item-name{
+  font-size: 46px;
+}
+.item-description{
+  font-size: 32px;
+  margin: 0 auto;
+  width: 50%;
+  font-weight: lighter;
+}
+.product-image{
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  left: 20%
+}
+.product-action{
+  font-size: 24px;
+}
+#no-underline{
+  text-decoration: none;
+}
